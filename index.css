@@ -1,0 +1,194 @@
+
+body {
+   padding-right: 0px;
+   padding-left: 0px;
+   margin: 0;
+}
+.beige-background {
+    background-color: #F5F5DC;
+}
+.blue-button-left {
+    border-radius:10px;
+    background-image: linear-gradient(#dedeb1, #f5f5dc);
+    color:black;
+    border:none;
+    font-size:20px;
+    padding: 5px;
+
+}
+.blue-button-right {
+    border-radius:10px;
+    background-color: #F5F5DC;
+    color:black;
+    border:none;
+    font-size:20px;
+    padding-left: 5px;
+    padding-right:5px;
+    margin-right: 5px;
+    width:100%
+}
+.navbar {
+    display: flex;
+    position:fixed;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    font-family: "Atkinson Hyperlegible Next", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    background-color: rgb(9, 33, 77);
+    padding:20px;
+    justify-content: center;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
+
+}
+.logo {
+    background-color: rgb(9, 33, 77);
+    float:left;
+    width: 50px;
+    height: auto;
+    padding:11px;
+    position: fixed;
+    z-index: 1;
+}
+.navbar a:hover {
+    color: rgb(175, 193, 227);
+}
+.dropdown {
+    position: relative;
+}
+.dropdown-content a {
+        display:block;
+        color:black;
+    }
+.dropdown-content {
+    display: none;
+    position: absolute;
+    padding: 5px;
+    background-color: #647397;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    display:block;
+}
+.nav-buttons {
+    margin-left: 30px;
+    color:white;
+}
+.header-title {
+    font-family: "Atkinson Hyperlegible Next", serif;
+    font-optical-sizing: auto;
+    font-weight: 750;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+
+.header {
+    font-family: "Atkinson Hyperlegible Next", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    background-color: rgb(14, 43, 97);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 70px;
+}
+.stp {
+    text-align: center;
+    color: black;
+    background-color: #F5F5DC;
+    margin: 0;
+    padding: 20px;
+    font-size: 18px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.stp-title {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: black;
+    font-size: 35px;
+}
+.section-container {
+    display: flex;
+    justify-content: center;
+}
+.section {
+    display: flex;
+    justify-content: space-around;
+    width: 75vw;
+    background-color: rgb(196, 196, 196);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+.section-image {
+    width: auto;
+    height: 300px;
+    padding: 0px;
+}
+.testimonials {
+    font-family: "Atkinson Hyperlegible Next", serif;
+    font-optical-sizing: auto;
+    background-color: #F5F5DC;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    text-align:center;
+    display: flex;
+    padding: 10px;
+    padding-bottom: 70px;
+    margin: 0;
+ 
+    clip-path: polygon(0% 0%,100% 0%,100% 90%, 0% 100%);
+}
+.testimonials-header {
+    background-color: #F5F5DC;
+    color: black;
+    text-align: center;
+    font-family: "Atkinson Hyperlegible Next", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    padding: 10px;
+    padding-top: 40px;
+    margin: 0;
+
+}
+
+
+.roboto {
+    font-family: "Roboto", serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+}
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.width50 {
+    width: 50%
+}
+.width75 {
+    width: 75%
+}
+.width100 {
+    width: 100%;
+}
+.width25 {
+    width: 25%;
+}
+a:hover {
+    color: white;
+}
+a {
+text-decoration: none;
+    }
